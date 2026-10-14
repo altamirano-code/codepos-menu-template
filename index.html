@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#28372b">
+  <meta name="description" content="Consulta nuestro menú digital: desayunos, cocina de hacienda, bebidas y postres.">
+  <title>Menú de la Hacienda | CodePOS MX</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="public-page">
+  <header class="hero">
+    <div class="hero-shade"></div>
+    <div class="hero-inner">
+      <div class="brand-line"><span class="brand-emblem" id="brand-emblem">H</span><span class="eyebrow">COCINA · TRADICIÓN · ENCUENTRO</span></div>
+      <p class="overline" id="business-tagline">SABORES QUE INVITAN A QUEDARSE</p>
+      <h1 id="business-name">La Hacienda <em>del Sabor</em></h1>
+      <p class="hero-description" id="business-description">Recetas para compartir, ingredientes frescos y el gusto de comer sin prisa.</p>
+      <div class="hero-pills"><span><i class="status-dot"></i> Menú digital</span><span>Hecho para disfrutarse</span></div>
+    </div>
+    <div class="hero-foot"><span>MENÚ Y PRECIOS</span><span id="updated-label">TEMPORADA ACTUAL</span></div>
+  </header>
+
+  <main class="menu-shell">
+    <section class="welcome-row">
+      <div><p class="section-kicker">DE NUESTRA COCINA</p><h2>Encuentra tu antojo</h2></div>
+      <p class="welcome-note">Un buen momento<br>comienza en la mesa.</p>
+    </section>
+
+    <div class="search-wrap">
+      <span aria-hidden="true">⌕</span>
+      <input id="menu-search" type="search" placeholder="Buscar platillo o bebida…" aria-label="Buscar en el menú">
+      <button id="clear-search" class="clear-search" type="button" aria-label="Limpiar búsqueda" hidden>×</button>
+    </div>
+    <nav id="category-nav" class="category-nav" aria-label="Categorías del menú"></nav>
+    <div id="menu-status" class="menu-status" role="status"></div>
+    <section id="menu-content" class="menu-content" aria-live="polite"></section>
+
+    <section class="visit-card">
+      <div class="visit-star">✦</div>
+      <div><p class="section-kicker">TE ESPERAMOS</p><h2 id="visit-title">El buen sabor se comparte.</h2><p id="visit-note">Pregunta a nuestro equipo por los especiales del día.</p></div>
+    </section>
+    <p class="menu-disclaimer" id="menu-disclaimer">Los precios y la disponibilidad pueden cambiar. Confirma cualquier duda con nuestro personal.</p>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-brand"><span class="brand-emblem small" id="footer-emblem">H</span><span>MENÚ DIGITAL</span></div>
+    <p id="footer-business">La Hacienda del Sabor</p>
+    <p class="powered">MENÚ DIGITAL · <strong>CODEPOS MX</strong></p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="menu.js"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+Coloca aquí fotografías propias o con licencia comercial. Optimiza las imágenes para móviles y usa nombres sencillos, por ejemplo: chilaquiles.jpg. La plantilla acepta URL HTTPS en el panel; para usar archivos locales, edita image_url del producto en Supabase con una ruta pública válida.
