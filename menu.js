@@ -4,8 +4,8 @@
  * La clave anon es pública por diseño; la seguridad depende de RLS en Supabase.
  */
 window.CODEPOS_CONFIG = window.CODEPOS_CONFIG || {
-  supabaseUrl: "",
-  supabaseAnonKey: ""
+  supabaseUrl: "https://egnrcdiviaylyejxbosf.supabase.co",
+  supabaseAnonKey: "sb_publishable_Yy42zIvpEExinMYbgxvzZw_3pRdeSKa"
 };
 
 const DEMO_MENU = {
