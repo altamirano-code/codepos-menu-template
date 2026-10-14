@@ -1,4 +1,4 @@
-window.CODEPOS_CONFIG = window.CODEPOS_CONFIG || { supabaseUrl: "", supabaseAnonKey: "" };
+window.CODEPOS_CONFIG = window.CODEPOS_CONFIG || { supabaseUrl: "https://egnrcdiviaylyejxbosf.supabase.co", supabaseAnonKey: "sb_publishable_Yy42zIvpEExinMYbgxvzZw_3pRdeSKa" };
 const cfg = window.CODEPOS_CONFIG;
 const $ = id => document.getElementById(id);
 const ui = {
